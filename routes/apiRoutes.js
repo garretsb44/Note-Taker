@@ -27,8 +27,10 @@ module.exports = function (app) {
   
  
     app.delete("/api/notes/:id", (req, res) => {
-     db = db.filter((note) => {
-        if (note.id !== req.params.id)
+     db = db.filter((note) => note.id !== req.params.id);
+     fs.writeFile(path.join(__dirname,"../db/db.json"), JSON.stringify(db), function (err){
+         if (err) throw err;
+         res.sendStatus(200);
      });
         });
 };

@@ -11,8 +11,8 @@ app.use(express.json());
 // The code below points the server to a series of "route" files. These routes
 // give our server a "map" of how to respond when users visit or request data
 // from various URLs.
-require("./routes/index")(app);
-
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 // The below code effectively "starts" our server
 app.listen(PORT, () => {

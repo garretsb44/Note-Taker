@@ -1,1 +1,8 @@
-[{"title":"Test","text":"this is a test","id":"1"}]
+const noteArray = [
+    {
+        "title":"Test",
+        "text":"this is a test",
+        "id":"1"}
+    ];
+
+    module.exports = noteArray;

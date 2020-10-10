@@ -23,7 +23,7 @@ This is an easy to use application that allows a user to type in any information
 
 ## Usage:
 
-The user clicks the start button to get taken to the notes pages. From there, the user can type in any notes they want, save any note, or delete them at any point. This helps the user stay organized
+The user clicks the start button to get taken to the notes pages. From there, the user can type in a title and any additional notes they want. They can also save any note, or delete them at any point. This helps the user stay organized
 
 ## Features:
 
